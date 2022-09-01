@@ -1,13 +1,8 @@
-# -*- coding: utf-8 -*-
 import time
 from turtle import right
 import pyautogui as pgui
 import pyperclip as pclip
 import pandas as pd
-import sys
-import os
-
-sys.path.insert(1, os.getcwd() + '/')
 
 def abreSistema():
     #abrir o menu iniciar e localizar o navegador, no meu caso, uso o zorin os e por isso a função não é exibida usando a tecla win, se for outro s.o que abra o menu com o win, seria mais simples o processo 
