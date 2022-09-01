@@ -75,8 +75,8 @@ def enviarEmail(texto):
     pgui.click(x=1638, y=822) #finaliza o envio 
     pgui.hotkey("ctrl","w") #fecha a tela
 
-abreSistema()#funcionando perfeitamente
-trazDados()#funcionando perfeitamente
+abreSistema()
+trazDados()
 corpoGerado= trazDados()
 
 
